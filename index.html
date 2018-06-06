@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <audio id="thanosstart" src="./assets/Sound/I hope they remember you by THANOS-avengers infinity war.mp3"></audio>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Marvel" rel="stylesheet">
+    <audio id="startAudio"><source src="./assets/Sound/I hope they remember you by THANOS-avengers infinity war.mp3" type="audio/mp3"></audio>
+</head>
+<body>
+    <div id="header">
+        <h1>Infinity Stone Collector</h1>
+    </div>
+
+    <div id="container">
+        <div id="game-section">
+            <div id="images">
+                <img id="stone1" class="crystal" src="./assets/images/Power stone.jpg">
+                <img id="stone2" class="crystal" src="./assets/images/Soul stone.jpeg">
+                <img id="stone3" class="crystal" src="./assets/images/Space Stone.jpeg">
+                <img id="stone4" class="crystal" src="./assets/images/time stone.jpg">
+            </div>
+            <div id="startbutton">
+                <button id="start">Click to Begin</button>
+            </div>
+            <div id="rules">
+                <h2>Rules:</h2>
+                <p>The inifinity stones you see are each assigned a value. To start the game, please click one of the stones, which will generate
+                    a target number. By clicking the stones you will increase the counter by that stones value to try and reach the target number.
+                    If you reach that number, the win counter will go up and the game will restart. If you lose, Thanos destroys the entire universe.
+                </p>
+            </div>
+            <div id="counters">
+                <h3 id="goal">Target Number:</h3>
+                <h3 id="counter">Your Score:</h3>
+                <h3 id="wins">Wins:</h3>
+                <h3 id="losses">Losses:</h3>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</body>
+    <script src="./assets/javascript/game.js"></script>
+</html>
