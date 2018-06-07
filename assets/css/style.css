@@ -62,7 +62,11 @@ body {
     background-size: 2000px;
 }
 
-p {
+ul {
+    list-style-type:none;
+}
+
+li {
     padding: 10px;
     color: white;
     font-family: 'Marvel', sans-serif;
